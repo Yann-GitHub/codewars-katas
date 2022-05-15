@@ -1,5 +1,5 @@
 <h1 align="center">Codewars Katas</h1>
-![Logo](./img/logo.jpg)
+![](./img/logo.jpg)
 
 ## Codewars
 
