@@ -1,23 +1,24 @@
 /*
   Title:
-  You Can't Code Under Pressure #1
+  Opposites Attract
 
   Description:
-  Code as fast as you can! You need to double the integer and return it.
+  Timmy & Sarah think they are in love, but around where they live, they will only know once they pick a flower each. If one of the flowers has an even number of petals and the other has an odd number of petals it means they are in love.
 
-  function doubleInteger(i) {
-  // i will be an integer. Double it and return it.
-  return i;
-}
+  Write a function that will take the number of petals of each flower and return true if they are in love and false if they aren't.
+
   
   Kata Link:
-    https://www.codewars.com/kata/53ee5429ba190077850011d4/javascript
+    https://www.codewars.com/kata/555086d53eac039a2a000083
 
   Solutions Link:
-    https://www.codewars.com/kata/53ee5429ba190077850011d4/solutions/javascript
+    https://www.codewars.com/kata/555086d53eac039a2a000083/solutions/javascript
 */
 
-function doubleInteger(i) {
-  
-  return i * 2;
+function lovefunc(flower1, flower2){
+  if ((flower1 + flower2) %2 !=0) {
+    return true;
+  } else {
+    return false;
+  }
 }
